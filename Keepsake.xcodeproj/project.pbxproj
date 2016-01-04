@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0DE07BC7562E7E1359807918 /* Pods_Keepsake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC54A9749EE5833F815AC40 /* Pods_Keepsake.framework */; };
+		D81A4BAA1C3A997E008A4E56 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81A4BA91C3A997E008A4E56 /* MapKit.framework */; };
 		D88585631C15B289007E4F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88585621C15B289007E4F14 /* AppDelegate.swift */; };
 		D88585651C15B289007E4F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88585641C15B289007E4F14 /* ViewController.swift */; };
 		D88585681C15B289007E4F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88585661C15B289007E4F14 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 		05D3D00561E4A72BECC89798 /* Pods-Keepsake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keepsake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keepsake/Pods-Keepsake.debug.xcconfig"; sourceTree = "<group>"; };
 		38CEB3CAE797296A192382DA /* Pods-Keepsake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keepsake.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keepsake/Pods-Keepsake.release.xcconfig"; sourceTree = "<group>"; };
 		7EC54A9749EE5833F815AC40 /* Pods_Keepsake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keepsake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81A4BA91C3A997E008A4E56 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D81A4BAB1C3A9A1E008A4E56 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		D885855F1C15B289007E4F14 /* Keepsake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keepsake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88585621C15B289007E4F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88585641C15B289007E4F14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81A4BAA1C3A997E008A4E56 /* MapKit.framework in Frameworks */,
 				0DE07BC7562E7E1359807918 /* Pods_Keepsake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +56,7 @@
 		D09699FD3C66A868D984B9DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D81A4BA91C3A997E008A4E56 /* MapKit.framework */,
 				7EC54A9749EE5833F815AC40 /* Pods_Keepsake.framework */,
 			);
 			name = Frameworks;
@@ -80,6 +85,7 @@
 			children = (
 				D88585621C15B289007E4F14 /* AppDelegate.swift */,
 				D88585641C15B289007E4F14 /* ViewController.swift */,
+				D81A4BAB1C3A9A1E008A4E56 /* Location.gpx */,
 				D88585661C15B289007E4F14 /* Main.storyboard */,
 				D88585691C15B289007E4F14 /* Assets.xcassets */,
 				D885856B1C15B289007E4F14 /* LaunchScreen.storyboard */,
