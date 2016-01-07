@@ -6,6 +6,24 @@ import SwiftyJSON
 
 class ViewController: UIViewController {
     
+    @IBAction func goToSecond() {
+        let alertController: UIAlertController = UIAlertController(title: "Geocache Data Found", message: "Download Geocache Data?", preferredStyle: .Alert)
+    
+        let cancelAction = UIAlertAction(title: "Cancel?", style: .Cancel) { action-> Void in
+            //
+        }
+        
+        let nextAction = UIAlertAction(title: "Download", style: .Default) { (action) -> Void in
+            self.performSegueWithIdentifier("toSecond", sender: self)
+        }
+        
+        alertController.addAction(cancelAction)
+        alertController.addAction(nextAction)
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+    }
+    
     let locationManager = CLLocationManager()
 
     @IBOutlet weak var mapView: MKMapView!
